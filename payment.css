@@ -1,0 +1,93 @@
+header{
+    width: 100vw;
+    height: 100vh;
+    background: #1b3956;
+    font-size: 1.2rem;
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    background: white;
+    max-width: 855px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 1.5rem;
+}
+.left{
+    flex-basis: 60%;
+    
+
+}
+.right{
+    flex-basis: 40%;
+    /* margin-top: 5px; */
+}
+.pm{
+    padding-left: 25px;
+}
+form{
+    padding: 1rem;
+}
+h3{
+    margin-top: 1rem;
+    color: #2f4357;
+    margin-left: 100px;
+
+}
+form input[type="text"]{
+    width: 90%;
+    padding: 0.5rem 0.4rem;
+    margin: 0.6rem 0;
+   
+
+}
+#zipp{
+    padding: 6px;
+}
+#zip{
+    display: flex;
+    margin-top: 0.5rem;
+}
+#zip select{
+    padding: 6px
+}
+#zipp input[type="number"]{
+    padding: 0.222rem 0.5rem;
+    margin-left: 5px;
+}
+input[type="button"]{
+    width: 90%;
+    padding: 10px;
+    background: #34495e;
+    color: white;
+    outline: none;
+    margin-top: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+input[type="button"]:hover{
+    background: #232d36;
+
+}
+#cvv{
+    width: 73%;
+  margin-left: 13px;
+    padding: 8px;
+    display: inline;
+}
+#zippp select{
+    padding: 7px;   
+    width: 95%;
+    margin-top: 9px;
+}
+#piz{
+    display: flex;
+    margin-top: 20px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <h3>BILLING ADDRESS</h3>
+                <form action="pay action.html">
+                    Full name
+                    <input type="text" placeholder="Enter name">
+                    Email
+                    <input type="text" placeholder="Enter email">
+                    Address
+                    <input type="text" placeholder="Enter address">
+                    City
+                    <input type="text"  placeholder="Enter city">
+
+                    <div id="zip">
+                        <label for="st">State
+                            <select name="" id="st">
+                                <option value="">Choose State</option>
+                                <option value="">Rajasthan</option>
+                                <option value="">New Delhi</option>
+                                <option value="">Uttar Pradesh</option>
+                                <option value="">Harayana</option>
+                                <option value="">J&K</option>
+                                <option value="">Madhya Pradesh</option>
+                            </select>
+                            <label for="zipp">
+                                Pin code
+                                <input type="number" name="pin code" id="zipp" placeholder="Pincode">
+                            </label>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <h3>PAYMENT</h3>
+                <form action="pay action.html">
+                    Accepted Card <br>
+                    <img src="Visa_icon-icons.com_60549.png" alt="" class="pm"> 
+                    <img src="mastercard_payment_method_card_icon_142734.png" alt="" class="pm">
+                    <img src="8365-american-express_102492.png" alt="" class="pm">
+                    <br>
+                    Credit Card Number
+                    <input type="text" placeholder="Enter card number">
+                    Expiry Month
+                    <input type="text" placeholder="Enter Month">
+                  
+                    <div id="zippp">
+                        <label>  Expiry Year
+                            <br>
+                            <select >
+                                <option value="">Choose Year...</option>
+                                <option value="">2025</option>
+                                <option value="">2026</option>
+                                <option value="">2027</option>
+                                <option value="">2028</option>
+                                <option value="">2029</option>
+                                <option value="">2030</option>
+                            </select>
+                            <label for="zip" id="piz">
+                                
+                               CVV <input type="number" name="CVV" id="cvv" placeholder="CVV">
+                            </label>
+                        </label>
+                    </div>
+                </form>
+                <input type="button" value="Proceed to Checkout">
+            </div>
+        </div>
+        </div>
+    </header>
+</body>
+
+</html>
